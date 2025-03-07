@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --red: #fa573a;
+    --black: #21242e;
+    --text-grey: #aaaaaa;
+    --text-white: white;
+    --primary-font: 'Montserrat', serif;
+    --font-size: 1rem;
+    --secondary-font: 'Handlee', serif;
+}
