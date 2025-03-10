@@ -333,6 +333,27 @@ img {
 
 /* End About us */
 
+/* Scroll button */
+
+.scroll-to-top {
+    position: fixed;
+    font-size: 2.5rem;
+    padding: 0;
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: var(--red);
+    bottom: 0.9em;
+    right: 1%;
+
+    &:hover {
+        cursor: pointer;
+        color: #f72500;
+    }
+}
+
+/* End scroll button */
+
 /* Footer */
 
 footer {
@@ -437,6 +458,10 @@ footer {
             margin-left: 1em;
             width: 45%;
         }
+    }
+
+    .scroll-button {
+        bottom: 1.1em;
     }
 
     footer {
