@@ -199,7 +199,7 @@ img {
     width: fit-content;
     font-size: 2rem;
     font-family: 'Handlee', serif;
-    border-bottom: 1.5px solid var(--red);
+
     margin: 0.5em auto;
     position: relative;
 
@@ -207,6 +207,17 @@ img {
         font-family: 'Handlee', serif;
         color: var(--red);
     }
+}
+
+.sub-title::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1.5px;
+    background-color: var(--red);
+    left: 50%;
+    bottom: -0.1rem;
+    transform: translateX(-50%);
 }
 
 .sub-title::after {
